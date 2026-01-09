@@ -40,7 +40,7 @@ class NoteViewController: UIViewController, DataPass {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = .red
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,target: self,action: #selector(addNote))
         navigationItem.titleView = filterSegment
         filterSegment.addTarget(self, action: #selector(filterChanged), for: .valueChanged)
