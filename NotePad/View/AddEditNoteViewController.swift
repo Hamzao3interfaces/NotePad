@@ -43,7 +43,7 @@ class AddEditNoteViewController: UIViewController {
     private let saveButton: UIButton = {
         let btn = UIButton(type: .system)
         btn.setTitle("Save", for: .normal)
-        btn.backgroundColor = .systemBlue
+        btn.backgroundColor = .black
         btn.setTitleColor(.white, for: .normal)
         btn.layer.cornerRadius = 8
         return btn
