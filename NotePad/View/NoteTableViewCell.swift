@@ -59,11 +59,11 @@ class NoteTableViewCell: UITableViewCell {
             item.translatesAutoresizingMaskIntoConstraints = false
         }
         NSLayoutConstraint.activate([
-            favLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
+            favLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
             favLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
             favLabel.widthAnchor.constraint(equalToConstant: 20),
 
-            titleLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
+            titleLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
             titleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
             titleLabel.trailingAnchor.constraint(lessThanOrEqualTo: favLabel.leadingAnchor, constant: -8),
 
