@@ -21,7 +21,7 @@ class NoteTableViewCell: UITableViewCell {
     private let contentLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 15)
-        label.textColor = .black
+        label.textColor = .red
         label.numberOfLines = 2
         return label
     }()
@@ -29,7 +29,7 @@ class NoteTableViewCell: UITableViewCell {
     private let dateLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 12)
-        label.textColor = .black
+        label.textColor = .blue
         return label
     }()
 
